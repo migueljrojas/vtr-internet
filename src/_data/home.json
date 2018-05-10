@@ -1,3 +1,111 @@
 {
-    
+    "seccion1":{
+        "texto1":"nuevo",
+        "texto2":"la velocidad que exiges, los gigas que necesita"
+    },
+    "seccion2":{
+        "titulo":"100 momentos, 100 gigas",
+        "contenido":"mira cuantas cosas puedes hacer con 100 gigas! elige tus actividades favoritas para vivir en internet y suma gigas hasta que completes la capacidad.",
+    },
+    "seccion3":[
+        {
+            "foto":"foto1",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        {
+            "foto":"foto2",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+            "foto":"foto3",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto4",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto5",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto6",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto7",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto8",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto9",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto10",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto11",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        },
+        {
+            "foto":"foto12",
+            "texto":"musica para superar una ruptura en dos semanas",
+            "gb":"22"
+        }
+
+    ],
+    "boton":"ver mas momentos",
+    "seccion4":{
+        "megas":{
+            "titulo":"megas",
+            "lista":[
+                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
+                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
+                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
+                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor."
+            ]
+        },
+        "4g":{
+            "titulo":"4g",
+            "lista":[
+                "tu velocidad no superara los 40 mega's.",
+                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
+                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
+                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor."
+            ]
+        }
+    },
+    "seccion5":{
+        "contenido1":{
+            "texto1":"velocidad maxima de bajada",
+            "texto2":"200 mbps",
+            "texto3":"velocidad maxima de subida 7 mbps"
+        },
+        "contenido2":{
+            "texto1":"100 gb",
+            "texto2":"de cuota de navegacion",
+        },
+        "contenido3":{
+            "texto1":"nextgen wifi incluido",
+        },
+        "boton":{
+            "texto":"lo quiero",
+            "precio":"20.990",
+            "contenido":"cumplida la cuota de velocidad maxima sera de 1mbps"
+        }
+    }
 }
