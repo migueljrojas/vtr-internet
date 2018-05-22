@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'Neo Sans Pro Ultra';
+    src: url('subset-NeoSansPro-Ultra.eot');
+    src: url('subset-NeoSansPro-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-Ultra.woff2') format('woff2'),
+        url('subset-NeoSansPro-Ultra.woff') format('woff'),
+        url('subset-NeoSansPro-Ultra.ttf') format('truetype'),
+        url('subset-NeoSansPro-Ultra.svg#NeoSansPro-Ultra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('subset-NeoSansPro-Regular.eot');
+    src: url('subset-NeoSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-Regular.woff2') format('woff2'),
+        url('subset-NeoSansPro-Regular.woff') format('woff'),
+        url('subset-NeoSansPro-Regular.ttf') format('truetype'),
+        url('subset-NeoSansPro-Regular.svg#NeoSansPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('subset-NeoSansPro-Bold.eot');
+    src: url('subset-NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-Bold.woff2') format('woff2'),
+        url('subset-NeoSansPro-Bold.woff') format('woff'),
+        url('subset-NeoSansPro-Bold.ttf') format('truetype'),
+        url('subset-NeoSansPro-Bold.svg#NeoSansPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('subset-NeoSansPro-Medium.eot');
+    src: url('subset-NeoSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-Medium.woff2') format('woff2'),
+        url('subset-NeoSansPro-Medium.woff') format('woff'),
+        url('subset-NeoSansPro-Medium.ttf') format('truetype'),
+        url('subset-NeoSansPro-Medium.svg#NeoSansPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('subset-NeoSansPro-Light.eot');
+    src: url('subset-NeoSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-Light.woff2') format('woff2'),
+        url('subset-NeoSansPro-Light.woff') format('woff'),
+        url('subset-NeoSansPro-Light.ttf') format('truetype'),
+        url('subset-NeoSansPro-Light.svg#NeoSansPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('subset-NeoSansPro-LightItalic.eot');
+    src: url('subset-NeoSansPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-LightItalic.woff2') format('woff2'),
+        url('subset-NeoSansPro-LightItalic.woff') format('woff'),
+        url('subset-NeoSansPro-LightItalic.ttf') format('truetype'),
+        url('subset-NeoSansPro-LightItalic.svg#NeoSansPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('subset-NeoSansPro-BoldItalic.eot');
+    src: url('subset-NeoSansPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-BoldItalic.woff2') format('woff2'),
+        url('subset-NeoSansPro-BoldItalic.woff') format('woff'),
+        url('subset-NeoSansPro-BoldItalic.ttf') format('truetype'),
+        url('subset-NeoSansPro-BoldItalic.svg#NeoSansPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Pro';
+    src: url('subset-NeoSansPro-Italic.eot');
+    src: url('subset-NeoSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansPro-Italic.woff2') format('woff2'),
+        url('subset-NeoSansPro-Italic.woff') format('woff'),
+        url('subset-NeoSansPro-Italic.ttf') format('truetype'),
+        url('subset-NeoSansPro-Italic.svg#NeoSansPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-MediumItalic.eot');
+    src: url('subset-NeoSansStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-MediumItalic.woff2') format('woff2'),
+        url('subset-NeoSansStd-MediumItalic.woff') format('woff'),
+        url('subset-NeoSansStd-MediumItalic.ttf') format('truetype'),
+        url('subset-NeoSansStd-MediumItalic.svg#NeoSansStd-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeoSans';
+    src: url('subset-NeoSans-LightItalic.eot');
+    src: url('subset-NeoSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSans-LightItalic.woff2') format('woff2'),
+        url('subset-NeoSans-LightItalic.woff') format('woff'),
+        url('subset-NeoSans-LightItalic.ttf') format('truetype'),
+        url('subset-NeoSans-LightItalic.svg#NeoSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-Light.eot');
+    src: url('subset-NeoSansStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-Light.woff2') format('woff2'),
+        url('subset-NeoSansStd-Light.woff') format('woff'),
+        url('subset-NeoSansStd-Light.ttf') format('truetype'),
+        url('subset-NeoSansStd-Light.svg#NeoSansStd-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeoSans';
+    src: url('subset-NeoSans-Medium.eot');
+    src: url('subset-NeoSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSans-Medium.woff2') format('woff2'),
+        url('subset-NeoSans-Medium.woff') format('woff'),
+        url('subset-NeoSans-Medium.ttf') format('truetype'),
+        url('subset-NeoSans-Medium.svg#NeoSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-Bold.eot');
+    src: url('subset-NeoSansStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-Bold.woff2') format('woff2'),
+        url('subset-NeoSansStd-Bold.woff') format('woff'),
+        url('subset-NeoSansStd-Bold.ttf') format('truetype'),
+        url('subset-NeoSansStd-Bold.svg#NeoSansStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-Regular.eot');
+    src: url('subset-NeoSansStd-Regular.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-Regular.woff2') format('woff2'),
+        url('subset-NeoSansStd-Regular.woff') format('woff'),
+        url('subset-NeoSansStd-Regular.ttf') format('truetype'),
+        url('subset-NeoSansStd-Regular.svg#NeoSansStd-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-BlackItalic.eot');
+    src: url('subset-NeoSansStd-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-BlackItalic.woff2') format('woff2'),
+        url('subset-NeoSansStd-BlackItalic.woff') format('woff'),
+        url('subset-NeoSansStd-BlackItalic.ttf') format('truetype'),
+        url('subset-NeoSansStd-BlackItalic.svg#NeoSansStd-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-Black.eot');
+    src: url('subset-NeoSansStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-Black.woff2') format('woff2'),
+        url('subset-NeoSansStd-Black.woff') format('woff'),
+        url('subset-NeoSansStd-Black.ttf') format('truetype'),
+        url('subset-NeoSansStd-Black.svg#NeoSansStd-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-Medium.eot');
+    src: url('subset-NeoSansStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-Medium.woff2') format('woff2'),
+        url('subset-NeoSansStd-Medium.woff') format('woff'),
+        url('subset-NeoSansStd-Medium.ttf') format('truetype'),
+        url('subset-NeoSansStd-Medium.svg#NeoSansStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-LightItalic.eot');
+    src: url('subset-NeoSansStd-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-LightItalic.woff2') format('woff2'),
+        url('subset-NeoSansStd-LightItalic.woff') format('woff'),
+        url('subset-NeoSansStd-LightItalic.ttf') format('truetype'),
+        url('subset-NeoSansStd-LightItalic.svg#NeoSansStd-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeoSans';
+    src: url('subset-NeoSans-Bold.eot');
+    src: url('subset-NeoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSans-Bold.woff2') format('woff2'),
+        url('subset-NeoSans-Bold.woff') format('woff'),
+        url('subset-NeoSans-Bold.ttf') format('truetype'),
+        url('subset-NeoSans-Bold.svg#NeoSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-Italic.eot');
+    src: url('subset-NeoSansStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-Italic.woff2') format('woff2'),
+        url('subset-NeoSansStd-Italic.woff') format('woff'),
+        url('subset-NeoSansStd-Italic.ttf') format('truetype'),
+        url('subset-NeoSansStd-Italic.svg#NeoSansStd-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-BoldItalic.eot');
+    src: url('subset-NeoSansStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-BoldItalic.woff2') format('woff2'),
+        url('subset-NeoSansStd-BoldItalic.woff') format('woff'),
+        url('subset-NeoSansStd-BoldItalic.ttf') format('truetype'),
+        url('subset-NeoSansStd-BoldItalic.svg#NeoSansStd-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-UltraItalic.eot');
+    src: url('subset-NeoSansStd-UltraItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-UltraItalic.woff2') format('woff2'),
+        url('subset-NeoSansStd-UltraItalic.woff') format('woff'),
+        url('subset-NeoSansStd-UltraItalic.ttf') format('truetype'),
+        url('subset-NeoSansStd-UltraItalic.svg#NeoSansStd-UltraItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neo Sans Std';
+    src: url('subset-NeoSansStd-Ultra.eot');
+    src: url('subset-NeoSansStd-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSansStd-Ultra.woff2') format('woff2'),
+        url('subset-NeoSansStd-Ultra.woff') format('woff'),
+        url('subset-NeoSansStd-Ultra.ttf') format('truetype'),
+        url('subset-NeoSansStd-Ultra.svg#NeoSansStd-Ultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeoSans';
+    src: url('subset-NeoSans-BoldItalic.eot');
+    src: url('subset-NeoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-NeoSans-BoldItalic.woff2') format('woff2'),
+        url('subset-NeoSans-BoldItalic.woff') format('woff'),
+        url('subset-NeoSans-BoldItalic.ttf') format('truetype'),
+        url('subset-NeoSans-BoldItalic.svg#NeoSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

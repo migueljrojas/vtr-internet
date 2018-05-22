@@ -1,111 +1,556 @@
 {
+    "slider":[
+        "https://www.youtube.com/embed/6Akqyj8IbVs",
+        "https://www.youtube.com/embed/sNMU2qxJ064"
+    ],
     "seccion1":{
         "texto1":"nuevo",
-        "texto2":"la velocidad que exiges, los gigas que necesita"
+        "texto2":"la velocidad que exiges,<br><span>los gigas</span> que necesitas"
     },
     "seccion2":{
         "titulo":"100 momentos, 100 gigas",
-        "contenido":"mira cuantas cosas puedes hacer con 100 gigas! elige tus actividades favoritas para vivir en internet y suma gigas hasta que completes la capacidad.",
+        "contenido":"¡Mira cuantas cosas puedes hacer con 100 gigas!<br>Elige tus actividades favoritas para vivir en internet y suma gigas hasta que completes la capacidad."
     },
     "seccion3":[
         {
             "foto":"foto1",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música para 2 horas de aseo diarias",
+            "gb":3.5
+        },
         {
             "foto":"foto2",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música para superar una ruptura en 2 semanas",
+            "gb":19
         },
+        {
             "foto":"foto3",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música para una cena romántica los fines de semana",
+            "gb":1
         },
         {
             "foto":"foto4",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música de carrete para todos los fines de semana",
+            "gb":4
         },
         {
             "foto":"foto5",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música de mamá para cocinar diariamente",
+            "gb":0.2
         },
         {
             "foto":"foto6",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"4 horas diarias de canciones de tu ídolo. porque lo merece",
+            "gb":7
         },
         {
             "foto":"foto7",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música para la practica de ballet semanal",
+            "gb":1
         },
         {
             "foto":"foto8",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"5 días de música para acompañar la maratón de estudio",
+            "gb":2
         },
         {
             "foto":"foto9",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"60 horas de placeres culpables musicales",
+            "gb":3.5
         },
         {
             "foto":"foto10",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Escuchar 4 horas de podcast todos los días",
+            "gb":7
         },
         {
             "foto":"foto11",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música para 2 horas de deporte diarias",
+            "gb":3.5
         },
         {
             "foto":"foto12",
-            "texto":"musica para superar una ruptura en dos semanas",
-            "gb":"22"
+            "texto":"Música para practicar canciones durante 1 hora diaria",
+            "gb":2
+        },
+        {
+            "foto":"foto1",
+            "texto":"15 horas de terapia musical para recuperarte del carrete",
+            "gb":1
+        },
+        {
+            "foto":"foto2",
+            "texto":"15 horas de inspiración musical creativa",
+            "gb":1
+        },
+        {
+            "foto":"foto3",
+            "texto":"Música para acompañar la lectura de tu libro favorito",
+            "gb":2
+        },
+        {
+            "foto":"foto4",
+            "texto":"Música para jugar con el perro 2 horas diarias",
+            "gb":3.5
+        },
+        {
+            "foto":"foto5",
+            "texto":"Música para rockear la mitad de tu semana",
+            "gb":1.5
+        },
+        {
+            "foto":"foto6",
+            "texto":"Música para la relajación de yoga semanal",
+            "gb":1
+        },
+        {
+            "foto":"foto7",
+            "texto":"Música para creerse cantante todos los días",
+            "gb":3.5
+        },
+        {
+            "foto":"foto8",
+            "texto":"Música para cocinar diariamente",
+            "gb":3.5
+        },
+        {
+            "foto":"foto9",
+            "texto":"1 hora diaria de bailes en el living",
+            "gb":2
+        },
+        {
+            "foto":"foto10",
+            "texto":"1 hora diaria de inspiración musical para cocinar",
+            "gb":2
+        },
+        {
+            "foto":"foto11",
+            "texto":"16 horas de karaoke non stop con los amigos",
+            "gb":1
+        },
+        {
+            "foto":"foto12",
+            "texto":"Imitar a tu banda favorita por 2 horas diarias",
+            "gb":3.5
+        },
+        {
+            "foto":"foto1",
+            "texto":"1 hora diaria de cardio bien bailado en el sofá",
+            "gb":2
+        },
+        {
+            "foto":"foto2",
+            "texto":"Maratón de la Casa de Papel",
+            "gb":17
+        },
+        {
+            "foto":"foto3",
+            "texto":"Ver la saga completa de El Señor de los Anillos",
+            "gb":11
+        },
+        {
+            "foto":"foto4",
+            "texto":"Ver la saga completa de Harry Potter",
+            "gb":20
+        },
+        {
+            "foto":"foto5",
+            "texto":"Ver 12 capítulos de Sex and the City (temporada 1)",
+            "gb":6
+        },
+        {
+            "foto":"foto6",
+            "texto":"Maratón de 6 películas románticas",
+            "gb":12
+        },
+        {
+            "foto":"foto7",
+            "texto":"Ver 24 capítulos de Friends (temporada 1)",
+            "gb":4
+        },
+        {
+            "foto":"foto8",
+            "texto":"Maratón de la saga Volver al Futuro",
+            "gb":6
+        },
+        {
+            "foto":"foto9",
+            "texto":"Ver 10 capítulos de GOT (temporada 1)",
+            "gb":10
+        },
+        {
+            "foto":"foto10",
+            "texto":"Ver 2 hora de teorías conspirativas a la semana",
+            "gb":8
+        },
+        {
+            "foto":"foto11",
+            "texto":"Maratón de la saga completa de Star Wars",
+            "gb":18
+        },
+        {
+            "foto":"foto12",
+            "texto":"Ver 13 capítulos de Breaking Bad",
+            "gb":11
+        },
+        {
+            "foto":"foto1",
+            "texto":"Ver 10 películas de acción",
+            "gb":20
+        },
+        {
+            "foto":"foto2",
+            "texto":"Maratón de 10 capítulos de tu serie el domingo",
+            "gb":10
+        },
+        {
+            "foto":"foto3",
+            "texto":"Disfrazarse y ver el estreno de tu serie favorita",
+            "gb":1
+        },
+        {
+            "foto":"foto4",
+            "texto":"Cine en tu casa todos los fines de semana",
+            "gb":16
+        },
+        {
+            "foto":"foto5",
+            "texto":"Volver a ver tus 4 películas favoritas",
+            "gb":8
+        },
+        {
+            "foto":"foto6",
+            "texto":"Ver todas las películas clásicas de Adam Sandler",
+            "gb":102
+        },
+        {
+            "foto":"foto7",
+            "texto":"Jugar tu juego online favorito 3 horas un día",
+            "gb":1
+        },
+        {
+            "foto":"foto8",
+            "texto":"Jugar Fifa online con tus amigos 3 horas un día",
+            "gb":1
+        },
+        {
+            "foto":"foto9",
+            "texto":"Ver 30 min diarios de videos de animales con tu perro",
+            "gb":15
+        },
+        {
+            "foto":"foto10",
+            "texto":"Ver los capítulos de la teleserie en Youtube",
+            "gb":50
+        },
+        {
+            "foto":"foto11",
+            "texto":"Ver 90 minutos de un partido de fútbol",
+            "gb":1.5
+        },
+        {
+            "foto":"foto12",
+            "texto":"Ver 3 horas de la fórmula 1 a la semana",
+            "gb":12
+        },
+        {
+            "foto":"foto1",
+            "texto":"Ver 1 hora diaria de videos fails" ,
+            "gb":0.5
+        },
+        {
+            "foto":"foto2",
+            "texto":"Ver 2 partidos de la NBA a la semana",
+            "gb":5
+        },
+        {
+            "foto":"foto3",
+            "texto":"Vitrinear ropa 2 hora a la semana",
+            "gb":0.6
+        },
+        {
+            "foto":"foto4",
+            "texto":"Vitrinear muebles por 10 horas para el cambio de casa",
+            "gb":0.8
+        },
+        {
+            "foto":"foto5",
+            "texto":"Stories de todos los desayunos del mes",
+            "gb":0.1
+        },
+        {
+            "foto":"foto6",
+            "texto":"Hacer pedido online de supermercado por 4 horas",
+            "gb":0.3
+        },
+        {
+            "foto":"foto7",
+            "texto":"Mirar artículos de buzzfeed por 2 horas diarias",
+            "gb":5
+        },
+        {
+            "foto":"foto8",
+            "texto":"Hacer quizzes de internet por 4 horas diarias",
+            "gb":9
+        },
+        {
+            "foto":"foto9",
+            "texto":"Reservar alojamiento para vacaciones por 4 horas",
+            "gb":0.3
+        },
+        {
+            "foto":"foto10",
+            "texto":"Subir tu último video a Youtube (10 min)",
+            "gb":0.2
+        },
+        {
+            "foto":"foto11",
+            "texto":"Leer horóscopo de compatibilidad de signos 1 hora diaria",
+            "gb":2.5
+        },
+        {
+            "foto":"foto12",
+            "texto":"Cotizar viajes para las vacaciones por 10 horas",
+            "gb":1
+        },
+        {
+            "foto":"foto1",
+            "texto":"Subir 2.000 fotos de las vacaciones a Facebook",
+            "gb":6
+        },
+        {
+            "foto":"foto2",
+            "texto":"Mandar 2 mails diarios de amor a tu crush",
+            "gb":0.02
+        },
+        {
+            "foto":"foto3",
+            "texto":"Escribir 100 tweets diarios sobre noticias",
+            "gb":0.01
+        },
+        {
+            "foto":"foto4",
+            "texto":"Twittear cada minuto de la liga los fin de semana",
+            "gb":0.01
+        },
+        {
+            "foto":"foto5",
+            "texto":"Mirar 4 horas diarias de memes",
+            "gb":11
+        },
+        {
+            "foto":"foto6",
+            "texto":"Publicar 4 estados diarios en Facebook",
+            "gb":0.1
+        },
+        {
+            "foto":"foto7",
+            "texto":"Publicar 5 selfies diarias en Instagram",
+            "gb":0.5
+        },
+        {
+            "foto":"foto8",
+            "texto":"Mirar tus jugadas favoritas en Youtube por 1 hora diaria",
+            "gb":30
+        },
+        {
+            "foto":"foto9",
+            "texto":"Subir un video diario de los trucos de tu perro (2 min)",
+            "gb":1
+        },
+        {
+            "foto":"foto10",
+            "texto":"Compartir 2 fotos diarias de tu comida en Facebook",
+            "gb":0.2
+        },
+        {
+            "foto":"foto11",
+            "texto":"Subir la recreación de Titanic",
+            "gb":3
+        },
+        {
+            "foto":"foto12",
+            "texto":"Leer durante 3 horas diarias online",
+            "gb":7
+        },
+        {
+            "foto":"foto1",
+            "texto":"Pedir comida online todos los días",
+            "gb":2.5
+        },
+        {
+            "foto":"foto2",
+            "texto":"Comprar entradas para conciertos todos los días",
+            "gb":2.5
+        },
+        {
+            "foto":"foto3",
+            "texto":"Videollamada con tus amigos 2 horas semanales",
+            "gb":8
+        },
+        {
+            "foto":"foto4",
+            "texto":"Ver 3 horas tutoriales de maquillaje el fin de semana",
+            "gb":3
+        },
+        {
+            "foto":"foto5",
+            "texto":"Tutorial de 5 horas para el maquillaje de halloween",
+            "gb":5
+        },
+        {
+            "foto":"foto6",
+            "texto":"Tutorial para arreglar bicicleta por 3 horas",
+            "gb":3
+        },
+        {
+            "foto":"foto7",
+            "texto":"Ver tutorial 1 hora para arreglar celular mojado",
+            "gb":1
+        },
+        {
+            "foto":"foto8",
+            "texto":"Tutorial para restaurar un mueble viejo por 3 horas",
+            "gb":3
+        },
+        {
+            "foto":"foto9",
+            "texto":"Tutorial de huerto en casa 2 horas diarias el fin de semana",
+            "gb":4
+        },
+        {
+            "foto":"foto10",
+            "texto":"Ver tutorial 2 horas para formatear el computador",
+            "gb":2
+        },
+        {
+            "foto":"foto11",
+            "texto":"Ver tutorial de 3 horas para bailar axe",
+            "gb":3
+        },
+        {
+            "foto":"foto12",
+            "texto":"Ver tutorial 1 hora para armar cubo rubik",
+            "gb":1
+        },
+        {
+            "foto":"foto1",
+            "texto":"Aprender a cortar el pelo 7 horas en una semana",
+            "gb":7
+        },
+        {
+            "foto":"foto2",
+            "texto":"Tutorial de 2 horas para el asado perfecto",
+            "gb":2
+        },
+        {
+            "foto":"foto3",
+            "texto":"Aprender a hablar inglés 5 horas a la semana",
+            "gb":20
+        },
+        {
+            "foto":"foto4",
+            "texto":"Tutorial de 3 horas para aprender a tejer",
+            "gb":3
+        },
+        {
+            "foto":"foto5",
+            "texto":"Aprender a tocar ukeleke 10 horas en una semana",
+            "gb":100
+        },
+        {
+            "foto":"foto6",
+            "texto":"Videos para entrenar a tu perro 1 hora diaria",
+            "gb":30
+        },
+        {
+            "foto":"foto7",
+            "texto":"Arreglar el auto con 8 horas de videos",
+            "gb":8
+        },
+        {
+            "foto":"foto8",
+            "texto":"Tutorial de 2 horas para ser el mejor bartender",
+            "gb":2
+        },
+        {
+            "foto":"foto9",
+            "texto":"Aprender a hacer sushi en Youtube en 2 horas",
+            "gb":2
+        },
+        {
+            "foto":"foto10",
+            "texto":"Rutina de ejercicio en Youtube 1 hora diaria",
+            "gb":30
+        },
+        {
+            "foto":"foto11",
+            "texto":"Aprender a bailar el paso del momento en 3 horas",
+            "gb":3
+        },
+        {
+            "foto":"foto12",
+            "texto":"Aprenden juntos a hacer un postre por 2 horas",
+            "gb":2
+        },
+        {
+            "foto":"foto9",
+            "texto":"Mirar videos ridículos en Youtube 4 horas semanales",
+            "gb":16
+        },
+        {
+            "foto":"foto10",
+            "texto":"Mandarle mails diarios a tus 50 parientes lejanos",
+            "gb":50
+        },
+        {
+            "foto":"foto11",
+            "texto":"Armar la casa del perro en 3 horas",
+            "gb":3
+        },
+        {
+            "foto":"foto12",
+            "texto":"Ver videos de gatos junto al perro 1 hora a la semana",
+            "gb":4
         }
-
     ],
-    "boton":"ver mas momentos",
+    "boton":"Ver más momentos",
     "seccion4":{
         "megas":{
             "titulo":"megas",
             "lista":[
-                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
-                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
-                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
-                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor."
+                "Podrás navegar a alta velocidad alcanzando 200 Mbps",
+                "Al tener alta velocidad puedes navegar de forma intensiva con múltiples dispositivos",
+                "Puedes navegar con múltiples dispositivos en forma simultánea accediendo con todos ellos a una navegación intensiva",
+                "Incluye Nextgen WiFi con una conexión WiFi de última generación que entrega máximo alcance y menos interferencia"
             ]
         },
-        "4g":{
+        "cuatrog":{
             "titulo":"4g",
             "lista":[
-                "tu velocidad no superara los 40 mega's.",
-                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
-                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor.",
-                "lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod tempor."
+                "Podrás navegar a baja velocidad alcanzando 20 Mbps",
+                "Al tener baja velocidad la navegación intensiva es recomendada para uno o dos dispositivos",
+                "Si quieres navegar con más dispositivos en forma simultánea sólo podrás acceder a una navegación básica",
+                "Incluye WiFi básico con el cual tendrás una cobertura acotada y podrías estar expuesto a la alta interferencia de redes vecinas"
             ]
         }
     },
     "seccion5":{
         "contenido1":{
-            "texto1":"velocidad maxima de bajada",
-            "texto2":"200 mbps",
-            "texto3":"velocidad maxima de subida 7 mbps"
+            "texto1":"Velocidad máxima de bajada",
+            "texto2":"<strong>200</strong> Mbps",
+            "texto3":"velocidad máxima de subida <span>7 Mbps</span>"
         },
         "contenido2":{
-            "texto1":"100 gb",
-            "texto2":"de cuota de navegacion",
+            "texto1":"<strong>100</strong> GB",
+            "texto2":"De cuota de navegación *"
         },
         "contenido3":{
-            "texto1":"nextgen wifi incluido",
+            "texto1":"Nextgen WIFI <span>incluido</span>"
         },
         "boton":{
             "texto":"lo quiero",
             "precio":"20.990",
-            "contenido":"cumplida la cuota de velocidad maxima sera de 1mbps"
+            "contenido":"* Cumplida la cuota de velocidad máxima sera de 1 Mbps"
         }
     }
 }

@@ -1,4 +1,4 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -14666,16 +14666,46 @@ var Header = function() {
     var header = $('.header');
     var body = $('body');
     var menuOpen = $('.header__hamburguer');
-    var menuClose = $('.header__nav__close');
+    var menuLink = $('.header__menu a');
 
     menuOpen.on('click', function(){
-        header.addClass('-open');
-        body.addClass('-hideOverflow');
+        header.toggleClass('-open');
+        body.toggleClass('-hideOverflow');
     });
 
-    menuClose.on('click', function(){
+    menuLink.on('click', function(){
         header.removeClass('-open');
         body.removeClass('-hideOverflow');
+    });
+
+    $('a[href="#"]').on('click', function(e){
+        e.preventDefault();
+    });
+
+    // Select all links with hashes
+    var links = $('a[href*="#"]');
+
+    $(document).on('click', 'a[href*="#"]', function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top + -0
+        }, 1000, function() {
+          return false;
+        });
+      }
+    }
     });
 };
 
@@ -14692,7 +14722,7 @@ var Slider = function() {
             $(this).slick({
                 dots: true,
                 fade: true,
-                arrows:  false,
+                arrows:  true,
                 autoplay: true
             });
         });
@@ -14702,6 +14732,86 @@ var Slider = function() {
 module.exports = Slider;
 
 },{}],7:[function(require,module,exports){
+'use strict';
+
+var Home = function() {
+    var momentsContainer = $('.home__moments__list');
+    var momentsHeader = $('.home__moments__header');
+    var momentsHeaderSibling = $('.home__moments__header__fixer');
+    var momentsHeaderHeight = momentsHeader.outerHeight();
+    var momentsFooter = $('.home__moments__cta');
+    var momentsSection = $('.home__moments');
+    var momentsList = $('.home__moments__list');
+    var moment = $('.home__moment');
+    var momentsListHeight = momentsList.outerHeight();
+    var momentHeight = moment.outerHeight();
+    var showMoreMoments = $('.home__moments__cta__btn');
+    var allMoments = false;
+    var gigasAmount = $('.home__moments__index__amount__size');
+    var gigasIndex = $('.home__moments__index__bar__fill');
+    var gigasCount = 0;
+
+    momentsList.css('maxHeight', momentHeight * 3);
+
+    showMoreMoments.on('click', function() {
+        if (!allMoments) {
+            momentsList.css('maxHeight', momentsListHeight);
+            allMoments = true;
+        }
+    });
+
+    function round(value, precision) {
+        var multiplier = Math.pow(10, precision || 0);
+        return Math.round(value * multiplier) / multiplier;
+    }
+
+    function gigasUpdater(mode, val) {
+        if ( mode === 'sum' && gigasCount < 100) {
+            gigasCount = gigasCount + val;
+        } else if (mode === 'less' && gigasCount > 0) {
+            gigasCount = gigasCount - val;
+        }
+
+        gigasAmount.html(gigasCount > 100 ? '100 GB' : round(gigasCount, 1) + ' GB');
+        gigasIndex.css('width', gigasCount > 100 ? '100%' : round(gigasCount, 1) + '%');
+    }
+
+    moment.each(function(){
+        var $this = $(this);
+
+        $this.on('click', function(){
+            var gigas = $this.data('size');
+            if (!$this.hasClass('-checked') && gigasCount + gigas <= 100) {
+                gigasUpdater('sum', gigas);
+                $this.addClass('-checked');
+            } else if ($this.hasClass('-checked')) {
+                gigasUpdater('less', gigas);
+                $this.removeClass('-checked');
+            }
+        });
+    });
+
+    $(window).on("scroll", function() {
+        var scroll = $(window).scrollTop();
+        var momentsSectionTop = momentsSection.get(0).getBoundingClientRect().top;
+        var momentsTop = momentsHeader.get(0).getBoundingClientRect().top;
+        var momentsBottom = momentsFooter.get(0).getBoundingClientRect().top;
+
+        if ( momentsTop <= 0 ) {
+            momentsHeader.addClass('-fixed');
+            momentsHeaderSibling.css('height', momentsHeaderHeight);
+        }
+
+        if ( momentsSectionTop > 0 || momentsBottom <= momentsHeaderHeight ) {
+            momentsHeader.removeClass('-fixed');
+            momentsHeaderSibling.css('height', 0);
+        }
+    });
+}
+
+module.exports = Home;
+
+},{}],8:[function(require,module,exports){
 (function (global){
 // Main javascript entry point
 // Should handle bootstrapping/starting application
@@ -14712,6 +14822,7 @@ global.$ = global.jQuery = require('jquery');
 global._ = require('underscore');
 var Header = require('../_modules/header/header');
 var Slider = require('../_modules/slider/slider');
+var Home = require('./home');
 
 $(function() {
     require('../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min');
@@ -14719,10 +14830,11 @@ $(function() {
 
     new Header();
     new Slider();
+    new Home();
 });
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min":1,"../../bower_components/slick-carousel/slick/slick":2,"../_modules/header/header":5,"../_modules/slider/slider":6,"jquery":3,"underscore":4}]},{},[7])
+},{"../../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min":1,"../../bower_components/slick-carousel/slick/slick":2,"../_modules/header/header":5,"../_modules/slider/slider":6,"./home":7,"jquery":3,"underscore":4}]},{},[8])
 
 //# sourceMappingURL=main.js.map

@@ -1,6 +1,19 @@
 [
     {
-        "name":"",
-        "url":""
+        "name":"Home",
+        "url":"#home"
+    },
+    {
+        "name":"100 gigas /<br> 100 momentos",
+        "url":"#momentos"
+    },
+    {
+        "name":"Megas vs 4g",
+        "url":"#megas"
+    },
+
+    {
+        "name":"Internet 200/100",
+        "url":"#producto"
     }
 ]
